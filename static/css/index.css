@@ -118,6 +118,10 @@ body {
   background: #000000;
 }
 
+.slider-pagination {
+    margin-top: 2rem; 
+}
+
 .eql-cntrb {
   font-size: smaller;
 }
