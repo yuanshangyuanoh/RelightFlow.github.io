@@ -21,10 +21,6 @@ body {
   border-radius: 12px;
 }
 
-
-.publication-title {
-}
-
 .publication-banner {
   max-height: parent;
 
@@ -41,9 +37,6 @@ body {
   top: auto;
   transform: none;
   object-fit: fit;
-}
-
-.publication-header .hero-body {
 }
 
 .publication-title {
@@ -66,9 +59,6 @@ body {
     font-weight: bolder;
 }
 
-.publication-authors {
-}
-
 .publication-authors a {
    color: hsl(204, 86%, 53%) !important;
 }
@@ -79,13 +69,6 @@ body {
 
 .author-block {
   display: inline-block;
-}
-
-.publication-banner img {
-}
-
-.publication-authors {
-  /*color: #4286f4;*/
 }
 
 .publication-video {
@@ -106,9 +89,6 @@ body {
     height: 100%;
 }
 
-.publication-body img {
-}
-
 .results-carousel {
   overflow: hidden;
 }
@@ -117,13 +97,12 @@ body {
   width: 100%;
   /* width:  83.33%; 5/6 of the available width */
 }
+
 .results-carousel .item {
-  /* margin: 5px; */
+  margin: 5px;
   overflow: hidden;
-  /* padding: 20px; */
-  font-size: 24;
-  width: 100%;
-  align-items: center;
+  padding: 20px;
+  font-size: 0;
 }
 .caption-container {
   display: flex;
@@ -141,108 +120,6 @@ body {
 
 .eql-cntrb {
   font-size: smaller;
-}
-
-
-
-/* video grid  */
-
-.video-wrapper {
-  display: inline-block;
-  position: relative;
-  width: 48%;
-  /* height: 350px; /* Set the desired width */
-  /* padding-bottom: 350px; */
-  /* overflow: hidden; */
-}
-
-
-.video-wrapper video {
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.video-wrapper .hover-video {
-  display: none;
-}
-
-.video-wrapper .overlay-text {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0);
-  font-size: 18px;
-  font-family: "Chalkduster";
-  font-weight: bold;
-  opacity: 0;
-  transition: opacity 0.3s;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.5); /* White color with transparency */
-  padding: 0px; /* Padding around the text */
-  border-radius: 10px; /* Rounded border radius */
-}
-
-.video-wrapper:hover .default-video {
-  display: none;
-}
-
-.video-wrapper:hover .hover-video {
-  display: block;
-}
-
-.video-wrapper:hover .overlay-text {
-  opacity: 1;
-}
-
-
-.video-wrapper video::-webkit-media-controls {
-  display: none !important;
-}
-
-.video-wrapper video::-webkit-media-controls-enclosure {
-  display: none !important;
-}
-
-.video-wrapper video::-webkit-media-controls-panel {
-  display: none !important;
-}
-
-.video-wrapper video::-webkit-media-controls-play-button {
-  display: none !important;
-}
-
-
-
-
-.video-grid-wide {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
-  gap: 1px; /* Adjust the gap between videos as needed */
-}
-
-.video-warpper-wide {
-  position: relative;
-  width: 350px; /* Set the desired width */
-  height: 350px;
-  overflow: hidden;
-}
-
-.video-warpper-wide video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.video-warpper-wide .hover-video {
-  display: none;
 }
 
 .caption-vid {
