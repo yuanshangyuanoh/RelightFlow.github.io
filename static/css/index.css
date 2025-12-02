@@ -31,28 +31,6 @@ body {
   padding: 0;
 }
 
-/* 1. 调整作者行与机构行之间的间距 */
-/* 目标：增加第一个 .publication-authors 的底部间距 */
-.is-size-5.publication-authors:first-child {
-    margin-bottom: 0.5rem !important; /* 强制增加到底部，值可调整 */
-}
-
-/* 2. 调整机构行与下方链接块之间的间距 */
-/* 目标：增加第二个 .publication-authors 的底部间距 */
-.is-size-5.publication-authors:nth-child(2) {
-    margin-bottom: 1.5rem !important; /* 强制增加到底部，值可调整 */
-}
-
-/* 3. 调整链接按钮块之间的水平和垂直间距 */
-/* 目标：增加每个 .link-block 的右侧和底部间距 */
-.publication-links .link-block {
-    margin-right: 1.5rem !important;
-}
-
-/* 4. [可选] 如果作者和标题之间太近，可以调整标题底部间距 */
-.publication-title {
-    margin-bottom: 1.5rem !important; 
-}
 
 .publication-banner video {
   position: relative;
