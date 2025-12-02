@@ -133,132 +133,97 @@
       <p class="subtitle is-12 has-text-centered has-text-grey">
         Interactive before-and-after comparisons showcasing our editing capabilities. Drag the divider to explore.
       </p>
+      
       <div id="diff-carousel" class="carousel results-carousel">
-        <!-- 视频对比项 -->
-        <div id="slider6bdb70e2-bb06-4f6a-ae18-d5dc025f9190" class="slider" tabindex="0">
-          <div class="slider-container" style="opacity: 1; width: 67200px; transition: none; transform: translate3d(-1920px, 0px, 0px);">
-            
-            <!-- Beach Walk 对比 -->
-            <div class="slider-item" data-slider-index="-1" data-cloned="true" style="width: 960px;">
-              <div class="item">
-                <div class="video-diff-container">
-                  <div class="video-diff-wrapper" data-id="relighted_beach_walk">
-                    <div class="video-left">
-                      <video autoplay="" controls="" muted="" loop="">
-                        <source src="static/teaser/beach_walk.mp4" type="video/mp4">
-                      </video>
-                      <div class="video-label">Original</div>
-                    </div>
-                    <div class="video-right">
-                      <video autoplay="" controls="" muted="" loop="">
-                        <source src="static/teaser/beach_walk_re.mp4" type="video/mp4">
-                      </video>
-                      <div class="video-label">Relighted</div>
-                    </div>
-                    <div class="divider">
-                      <div class="divider-handle"></div>
-                    </div>
-                  </div>
-                </div>
+        
+        <div class="item">
+          <div class="video-diff-container">
+            <div class="video-diff-wrapper" data-id="featured_bear_panda">
+              <div class="video-left">
+                <video autoplay controls muted loop>
+                  <source src="static\teaser\beach_walk.mp4" type="video/mp4">
+                </video>
+                <div class="video-label">Original: Brown Bear</div>
+              </div>
+              <div class="video-right">
+                <video autoplay controls muted loop>
+                  <source src="static\teaser\beach_walk_re.mp4" type="video/mp4">
+                </video>
+                <div class="video-label">Edited: Panda</div>
+              </div>
+              <div class="divider">
+                <div class="divider-handle"></div>
               </div>
             </div>
-
-            <!-- Hike Path 对比 -->
-            <div class="slider-item" data-slider-index="0" data-cloned="true" style="width: 960px;">
-              <div class="item">
-                <div class="video-diff-container">
-                  <div class="video-diff-wrapper" data-id="relighted_hike_path">
-                    <div class="video-left" style="clip-path: inset(0px 100% 0px 0px);">
-                      <video autoplay="" controls="" muted="" loop="">
-                        <source src="static/teaser/hike_path.mp4" type="video/mp4">
-                      </video>
-                      <div class="video-label">Original</div>
-                    </div>
-                    <div class="video-right">
-                      <video autoplay="" controls="" muted="" loop="">
-                        <source src="static/teaser/hike_path_re.mp4" type="video/mp4">
-                      </video>
-                      <div class="video-label">Relighted</div>
-                    </div>
-                    <div class="divider" style="left: 0%;">
-                      <div class="divider-handle"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Boat 对比 -->
-            <div class="slider-item is-slide-next" data-slider-index="1" style="width: 960px;">
-              <div class="item">
-                <div class="video-diff-container">
-                  <div class="video-diff-wrapper" data-id="relighed_boat">
-                    <div class="video-left" style="clip-path: inset(0px 0% 0px 0px);">
-                      <video autoplay="" controls="" muted="" loop="">
-                        <source src="static/teaser/boat.mp4" type="video/mp4">
-                      </video>
-                      <div class="video-label">Original</div>
-                    </div>
-                    <div class="video-right">
-                      <video autoplay="" controls="" muted="" loop="">
-                        <source src="static/teaser/boat_re.mp4" type="video/mp4">
-                      </video>
-                      <div class="video-label">Relighted</div>
-                    </div>
-                    <div class="divider" style="left: 100%;">
-                      <div class="divider-handle"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Burnout 对比 -->
-            <div class="slider-item" data-slider-index="2" style="width: 960px;">
-              <div class="item">
-                <div class="video-diff-container">
-                  <div class="video-diff-wrapper" data-id="relighted_burn_out">
-                    <div class="video-left" style="clip-path: inset(0px 92.4542% 0px 0px);">
-                      <video autoplay="" controls="" muted="" loop="">
-                        <source src="static/teaser/burnout.mp4" type="video/mp4">
-                      </video>
-                      <div class="video-label">Original</div>
-                    </div>
-                    <div class="video-right">
-                      <video autoplay="" controls="" muted="" loop="">
-                        <source src="static/teaser/burnout_re.mp4" type="video/mp4">
-                      </video>
-                      <div class="video-label">Relighted</div>
-                    </div>
-                    <div class="divider" style="left: 7.54579%;">
-                      <div class="divider-handle"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 左右箭头导航 -->
-          <div class="slider-navigation-previous">
-            <svg viewBox="0 0 50 80" xml:space="preserve">
-              <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "></polyline>
-            </svg>
-          </div>
-          <div class="slider-navigation-next">
-            <svg viewBox="0 0 50 80" xml:space="preserve">
-              <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "></polyline>
-            </svg>
-          </div>
-
-          <!-- 分页导航 -->
-          <div class="slider-pagination">
-            <div class="slider-page is-active" data-index="0"></div>
-            <div class="slider-page" data-index="1"></div>
-            <div class="slider-page" data-index="2"></div>
-            <div class="slider-page" data-index="3"></div>
           </div>
         </div>
+        
+        <div class="item">
+          <div class="video-diff-container">
+            <div class="video-diff-wrapper" data-id="featured_bear_dinosaur">
+              <div class="video-left">
+                <video autoplay controls muted loop>
+                  <source src="static\teaser\boat.mp4" type="video/mp4">
+                </video>
+                <div class="video-label">Original: Brown Bear</div>
+              </div>
+              <div class="video-right">
+                <video autoplay controls muted loop>
+                  <source src="static\teaser\boat_re.mp4" type="video/mp4">
+                </video>
+                <div class="video-label">Edited: Dinosaur</div>
+              </div>
+              <div class="divider">
+                <div class="divider-handle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item">
+          <div class="video-diff-container">
+            <div class="video-diff-wrapper" data-id="featured_rabbit_crochet">
+              <div class="video-left">
+                <video autoplay controls muted loop>
+                  <source src="static\teaser\hike_path.mp4" type="video/mp4">
+                </video>
+                <div class="video-label">Original: Real Rabbit</div>
+              </div>
+              <div class="video-right">
+                <video autoplay controls muted loop>
+                  <source src="static\teaser\hike_path_re.mp4" type="video/mp4">
+                </video>
+                <div class="video-label">Edited: Crochet Rabbit</div>
+              </div>
+              <div class="divider">
+                <div class="divider-handle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="video-diff-container">
+            <div class="video-diff-wrapper" data-id="featured_jeep_porsche">
+              <div class="video-left">
+                <video autoplay controls muted loop>
+                  <source src="static\teaser\burnout.mp4" type="video/mp4">
+                </video>
+                <div class="video-label">Original: Silver Jeep</div>
+              </div>
+              <div class="video-right">
+                <video autoplay controls muted loop>
+                  <source src="static\teaser\burnout_re.mp4" type="video/mp4">
+                </video>
+                <div class="video-label">Edited: Porsche Car</div>
+              </div>
+              <div class="divider">
+                <div class="divider-handle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
